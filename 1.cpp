@@ -37,7 +37,7 @@ int main(int, char**){
 
     int array[4];
 
-    cout<<"comparison"<<endl;
+    cout<<"Comparison array and struct"<<endl;
     cout<<"array: "<<sizeof(array)<<endl;
     cout<<"struct: "<<sizeof(student)<<endl;
 
