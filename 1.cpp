@@ -1,5 +1,6 @@
 #include <iostream>
 
+
 using namespace std;
 
 enum Status {
@@ -21,6 +22,7 @@ int main(int, char**){
 
     cout<<"Input id of Student"<<endl;
     cin>>student.id;
+
 
     cout<<"Input name of Student"<<endl;
     cin>>student.name;
