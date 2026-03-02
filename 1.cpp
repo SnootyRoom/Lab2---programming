@@ -16,9 +16,22 @@ struct Student {
     Status status;
 };
 
+string getStatus(int status) {
+    switch (status) {
+        case Excellent:    return "Excellent";
+        case Good:   return "Good";
+        case Satisfactory: return "Satisfactory";
+        case Unsatisfactory:  return "Unsatisfactory";
+    }
+}
+
 int main(int, char**){
+    const int N = 4;
     Student student;
     int statusChoice;
+    int *array = new int[N];
+
+    for(int i = 0; i < N; i++) array[i] = 0;
 
     cout<<"Input id of Student"<<endl;
     cin>>student.id;
@@ -35,9 +48,7 @@ int main(int, char**){
     cout<<"Student info"<<endl;
     cout<<"id: "<<student.id<<endl;
     cout<<"name: "<<student.name<<endl;
-    cout<<"status: "<<student.status<<endl;
-
-    int array[4];
+    cout<<"status: "<<getStatus(student.status)<<endl;
 
     cout<<"Comparison array and struct"<<endl;
     cout<<"array: "<<sizeof(array)<<endl;

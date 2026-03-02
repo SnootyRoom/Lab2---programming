@@ -30,21 +30,22 @@ string getDayName(int day) {
     }
 }
 
-Weather searchWarmDay(Weather weather[]){
+Weather searchWarmDay(Weather *weather, const int N){
     int warmDayIndex = 0;
-    for (int i = 0; i < 7; i++) {
+    for (int i = 0; i < N; i++) {
         if (weather[warmDayIndex].temperature < weather[i].temperature) warmDayIndex = i;
     }
     return weather[warmDayIndex];
 }
 
 int main(int, char**){
-    Weather weather[7];
+    const int N = 7;
+    Weather *weather = new Weather[N];
     Weather warmDay;
     string dayName;
 
 
-    for(int i = 1; i < 8; i++){
+    for(int i = 1; i < N + 1; i++){
         weather[i - 1].day = static_cast<Day>(i);
         dayName = getDayName(weather[i - 1].day);
         cout<<"Input the tempreture on "<<dayName<<endl;
@@ -54,7 +55,7 @@ int main(int, char**){
         
     }
 
-    warmDay = searchWarmDay(weather);
+    warmDay = searchWarmDay(weather, N);
 
     cout<<"The warmest day"<<endl;
     cout<<getDayName(warmDay.day)<<endl;
