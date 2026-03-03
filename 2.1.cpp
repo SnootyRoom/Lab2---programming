@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -17,7 +18,7 @@ void printBook(Book book){
     cout<<"Author: "<<book.author<<endl;
 }
 
-Book searchBookByAuthor(Book *books, const int N, string author) {
+Book searchBookByAuthor(Book *books, const int &N, string author) {
 
     for (int i = 0; i < N; i++) {
         if(books[i].author == author) return books[i];
@@ -25,7 +26,7 @@ Book searchBookByAuthor(Book *books, const int N, string author) {
     return {};
 }
 
-int getIndex(Book *books, const int N, Book book) {
+int getIndex(Book *books, const int &N, Book book) {
     for (int i = 0; i < N; i++) {
         if(books[i].title == book.title && books[i].author == book.author) return i;
     }
@@ -43,11 +44,9 @@ int main(int, char**){
     for (int i = 0; i < N; i++){
         cout<<endl<<"Input info about "<<i + 1<<" book"<<endl;
         cout<<"Input title of book"<<endl;
-        cin>>title;
-        book.title = title;
+        getline(cin>>ws, book.title);
         cout<<"Input author of book"<<endl;
-        cin>>author;
-        book.author = author;
+        getline(cin>>ws, book.author);
         cout<<"Input date of book"<<endl;
         cin>>library.date[i];
         

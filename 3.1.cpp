@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int getIndexOfWarmDay(int *temperatures, const int N){
+int getIndexOfWarmDay(int *temperatures, const int &N){
     int maxTemperatureIndex = 0;
     for (int i = 0; i < N; i++) {
         if(temperatures[maxTemperatureIndex] < temperatures[i]) maxTemperatureIndex = i;

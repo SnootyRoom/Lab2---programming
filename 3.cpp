@@ -30,7 +30,7 @@ string getDayName(int day) {
     }
 }
 
-Weather searchWarmDay(Weather *weather, const int N){
+Weather searchWarmDay(Weather *weather, const int &N){
     int warmDayIndex = 0;
     for (int i = 0; i < N; i++) {
         if (weather[warmDayIndex].temperature < weather[i].temperature) warmDayIndex = i;

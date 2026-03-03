@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <string>
 
 using namespace std;
 
@@ -37,8 +37,8 @@ int main(int, char**){
     cin>>student.id;
 
 
-    cout<<"Input name of Student"<<endl;
-    cin>>student.name;
+    cout<<"Input name of Student"<<endl;    
+    getline(cin>>ws, student.name);
 
     cout<<"Input status of student (5 - Excellent, 4 - Good, 3 - Satisfactory, 2 - Unsatisfactory)"<<endl;
     cin>>statusChoice;
