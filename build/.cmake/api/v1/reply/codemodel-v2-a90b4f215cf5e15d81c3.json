@@ -1,0 +1,480 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MultiTargetProject",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-f989bcb5837856b4198e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab2-programming::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab2-programming-Debug-00d0a1d8b5a7bd304506.json",
+					"name" : "Lab2-programming",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab2-programming1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab2-programming1-Debug-ce8bb050ac196df9dd9e.json",
+					"name" : "Lab2-programming1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab2-programming2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab2-programming2-Debug-efaf1dacdea1e2e69011.json",
+					"name" : "Lab2-programming2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab2-programming3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab2-programming3-Debug-8fb7cdedb93c61479884.json",
+					"name" : "Lab2-programming3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab2-programming4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab2-programming4-Debug-9623bdb5581be58cb270.json",
+					"name" : "Lab2-programming4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab2-programming5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab2-programming5-Debug-37ee0ced5f45d730e099.json",
+					"name" : "Lab2-programming5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab2-programming6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab2-programming6-Debug-97beb5e9dee5ac632afa.json",
+					"name" : "Lab2-programming6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-67d3f5d8aab22e1cc785.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MultiTargetProject",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-f989bcb5837856b4198e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab2-programming::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab2-programming-Release-ac19256d94d60e52f4e9.json",
+					"name" : "Lab2-programming",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab2-programming1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab2-programming1-Release-c6d443f48ea99a75042e.json",
+					"name" : "Lab2-programming1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab2-programming2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab2-programming2-Release-ff087602c65c3d2ba628.json",
+					"name" : "Lab2-programming2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab2-programming3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab2-programming3-Release-3d737be725eeef1ab702.json",
+					"name" : "Lab2-programming3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab2-programming4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab2-programming4-Release-2a9755c247d2119d27f6.json",
+					"name" : "Lab2-programming4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab2-programming5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab2-programming5-Release-9ae225303184dcb48a8f.json",
+					"name" : "Lab2-programming5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab2-programming6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab2-programming6-Release-f29591636d9eca02a262.json",
+					"name" : "Lab2-programming6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-67d3f5d8aab22e1cc785.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MultiTargetProject",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-f989bcb5837856b4198e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab2-programming::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab2-programming-MinSizeRel-400c8edb41919efbc686.json",
+					"name" : "Lab2-programming",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab2-programming1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab2-programming1-MinSizeRel-0e847053d38314ffa435.json",
+					"name" : "Lab2-programming1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab2-programming2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab2-programming2-MinSizeRel-501bc8cd64bdf3e6e537.json",
+					"name" : "Lab2-programming2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab2-programming3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab2-programming3-MinSizeRel-a55221bbe44e9b52f6f8.json",
+					"name" : "Lab2-programming3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab2-programming4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab2-programming4-MinSizeRel-185151702e7b8329b376.json",
+					"name" : "Lab2-programming4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab2-programming5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab2-programming5-MinSizeRel-872c217322464178c08a.json",
+					"name" : "Lab2-programming5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab2-programming6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab2-programming6-MinSizeRel-7c657afead53e05777de.json",
+					"name" : "Lab2-programming6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-67d3f5d8aab22e1cc785.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MultiTargetProject",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-f989bcb5837856b4198e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab2-programming::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab2-programming-RelWithDebInfo-70df24080f1373369da8.json",
+					"name" : "Lab2-programming",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab2-programming1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab2-programming1-RelWithDebInfo-c3f81c786c24b66fd589.json",
+					"name" : "Lab2-programming1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab2-programming2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab2-programming2-RelWithDebInfo-63e596b143330a7f58d9.json",
+					"name" : "Lab2-programming2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab2-programming3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab2-programming3-RelWithDebInfo-2ac9b5ed68751d95da74.json",
+					"name" : "Lab2-programming3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab2-programming4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab2-programming4-RelWithDebInfo-22b66f7550e484afb73a.json",
+					"name" : "Lab2-programming4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab2-programming5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab2-programming5-RelWithDebInfo-54bc4a43be564fcb2344.json",
+					"name" : "Lab2-programming5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Lab2-programming6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Lab2-programming6-RelWithDebInfo-38ad598350e316ebae20.json",
+					"name" : "Lab2-programming6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-67d3f5d8aab22e1cc785.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Lab2 - programming/build",
+		"source" : "C:/Lab2 - programming"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

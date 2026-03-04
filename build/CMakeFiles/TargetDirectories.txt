@@ -1,3 +1,9 @@
 C:/Lab2 - programming/build/CMakeFiles/Lab2-programming.dir
+C:/Lab2 - programming/build/CMakeFiles/Lab2-programming1.dir
+C:/Lab2 - programming/build/CMakeFiles/Lab2-programming2.dir
+C:/Lab2 - programming/build/CMakeFiles/Lab2-programming3.dir
+C:/Lab2 - programming/build/CMakeFiles/Lab2-programming4.dir
+C:/Lab2 - programming/build/CMakeFiles/Lab2-programming5.dir
+C:/Lab2 - programming/build/CMakeFiles/Lab2-programming6.dir
 C:/Lab2 - programming/build/CMakeFiles/ALL_BUILD.dir
 C:/Lab2 - programming/build/CMakeFiles/ZERO_CHECK.dir

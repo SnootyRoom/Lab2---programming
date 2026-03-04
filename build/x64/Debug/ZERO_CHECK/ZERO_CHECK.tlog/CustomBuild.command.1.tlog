@@ -1,0 +1,10 @@
+^C:\LAB2 - PROGRAMMING\BUILD\CMAKEFILES\F72BE9E7E5E69E52305677413D827FDD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Insiders\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Lab2 - programming" "-BC:/Lab2 - programming/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Lab2 - programming/build/MultiTargetProject.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

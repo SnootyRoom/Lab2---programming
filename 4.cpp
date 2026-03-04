@@ -66,13 +66,9 @@ int main(int, char**) {
     string targetStreet;
 
     
-    for (int i = 0; i < N; i++){
-        inputPerson(persons[i]);
-    }
+    for (int i = 0; i < N; i++) inputPerson(persons[i]);
 
-    for (int i = 0; i < N; i++) {
-        printPerson(persons[i]);
-    }
+    for (int i = 0; i < N; i++) printPerson(persons[i]);
 
     cout<<endl<<"Input street to find person"<<endl;
     getline(cin >> ws, targetStreet);

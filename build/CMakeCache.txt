@@ -121,7 +121,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Lab2-programming
+CMAKE_PROJECT_NAME:STATIC=MultiTargetProject
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=0.1.0
@@ -217,6 +217,15 @@ Lab2-programming_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 Lab2-programming_SOURCE_DIR:STATIC=C:/Lab2 - programming
+
+//Value Computed by CMake
+MultiTargetProject_BINARY_DIR:STATIC=C:/Lab2 - programming/build
+
+//Value Computed by CMake
+MultiTargetProject_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+MultiTargetProject_SOURCE_DIR:STATIC=C:/Lab2 - programming
 
 
 ########################
